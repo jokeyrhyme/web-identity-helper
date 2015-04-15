@@ -44,5 +44,10 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "loadjs-ex-requirejs": "jokeyrhyme/loadjs-ex-requirejs#1e7782147e",
+    "react": "0.13.1",
+    "react-pure": "^0.2.4"
   }
 }

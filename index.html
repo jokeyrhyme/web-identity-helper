@@ -9,6 +9,16 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
 </head>
 <body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1060755080619093',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+    delete window.fbAsyncInit;
+  };
+  </script>
   <h1>Web Identity Helper</h1>
   <p>This is primarily useful for debugging identity provider output.</p>
   <p>Open your developer tools and refresh, I'm too lazy to output to the page. :P</p>
@@ -18,7 +28,7 @@
       <div id="google"></div>
     </div>
     <div class="pure-u-1 pure-u-md-1-3">
-      <h2>Facebook</h2>
+      <div id="facebook"></div>
     </div>
     <div class="pure-u-1 pure-u-md-1-3">
       <h2>Amazon</h2>

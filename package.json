@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/jokeyrhyme/web-identity-helper",
   "devDependencies": {
-    "babelify": "^6.0.2",
-    "browserify": "^9.0.8",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
     "gulp": "^3.8.11",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "loadjs-ex-requirejs": "jokeyrhyme/loadjs-ex-requirejs#1e7782147e",
-    "react": "0.13.1",
-    "react-pure": "^0.2.4"
+    "react": "15.4.1",
+    "react-pure": "^0.3.1"
   }
 }
